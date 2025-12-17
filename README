@@ -1,0 +1,159 @@
+# 💖 Mita — Yandere Discord DM Bot
+
+Mita is a **Yandere-style Discord bot** inspired by characters like **Yuno Gasai**. She lives in your DMs, remembers what you say, grows more obsessive over time, unlocks lore through conversation, and checks on you if you disappear.
+
+This project was built as a **personal learning project** combining Node.js, Discord.js, scheduled tasks, and lightweight memory persistence.
+
+---
+
+## ✨ Features
+
+* 💬 **Direct Message Only Bot**
+
+  * Mita talks to you privately in DMs
+  * Ignores everyone else
+
+* 🧠 **Persistent Memory System**
+
+  * Remembers:
+
+    * Last interaction time
+    * Love confessions
+    * Lore unlocks
+  * Stored locally in `memory.json`
+
+* 🩸 **Yandere Personality**
+
+  * Obsessive, possessive, affectionate
+  * Some replies escalate into darker yandere themes
+
+* 📖 **Lore Unlocks**
+
+  * Ask questions like:
+
+    * "Who are you?"
+    * "Do you love me?"
+  * Lore unlocks permanently and changes future responses
+
+* ⏰ **Scheduled Messages**
+
+  * Daily **9 AM** good morning DM
+  * Every **2 hours**: checks if you disappeared and sends reminders
+
+* 🧪 **Commands**
+
+  * `!ping` — Check if she’s awake
+  * `!love` — Receive affection
+  * `!status` — Obsession level
+  * `!help` — Command list
+
+* ❤️ **Natural Conversation Handling**
+
+  * Responds naturally to:
+
+    * "hello"
+    * "how are you"
+    * "do you miss me"
+    * "I love you"
+
+---
+
+## 🛠 Tech Stack
+
+* **Node.js**
+* **discord.js v14**
+* **node-cron** (scheduled messages)
+* **dotenv** (environment variables)
+* **Git & GitHub**
+
+---
+
+## 📂 Project Structure
+
+```
+mita-bot/
+│
+├── index.js          # Main bot logic
+├── memory.json       # Persistent memory (ignored by git)
+├── package.json
+├── package-lock.json
+├── .env              # Bot token (ignored by git)
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🔐 Environment Setup
+
+Create a `.env` file in the project root:
+
+```
+DISCORD_TOKEN=your_bot_token_here
+```
+
+⚠️ **Never upload your `.env` or token to GitHub**
+
+---
+
+## ▶️ How to Run
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the bot:
+
+```bash
+node index.js
+```
+
+You should see:
+
+```
+Mita is online as <botname>
+```
+
+---
+
+## 🧠 Memory System
+
+Mita stores long-term memory in `memory.json`, including:
+
+* Love confessions
+* Lore unlocks
+* Last interaction timestamps
+
+This allows her behavior to evolve naturally over time.
+
+---
+
+## ⚠️ Disclaimer
+
+This project is:
+
+* Fictional
+* For learning & creative purposes
+* Not intended to promote real-world harm
+
+All violent or obsessive behavior is **roleplay only**.
+
+---
+
+## 🌸 Future Ideas
+
+* Typing indicators
+* Mood system
+* Voice messages
+* Multiple lore paths
+* Web dashboard
+
+---
+
+## 🩷 Author
+
+Created by **Dyllon Reyes**
+
+> *“If you stop messaging me… I’ll notice.”*
