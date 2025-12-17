@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Node modules (VERY IMPORTANT)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Runtime memory files (optional but recommended)
+memory.json
